@@ -15,27 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.c">
+    <ClCompile Include="DLinkedList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ListMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NameCard.c">
+    <ClCompile Include="DLinkedListMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="NameCard.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ArrayList.h">
+    <ClInclude Include="DLinkedList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

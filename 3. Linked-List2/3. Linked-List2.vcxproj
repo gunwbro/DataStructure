@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{14065571-E5A0-46B2-8DC4-FD6727A397B5}</ProjectGuid>
-    <RootNamespace>LinkedList1</RootNamespace>
+    <ProjectGuid>{0730C72D-D49D-43C6-A6D1-5B11811B4410}</ProjectGuid>
+    <RootNamespace>My3LinkedList2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2. Linked-List1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,15 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayList.c" />
-    <ClCompile Include="ListMain.c" />
-    <ClCompile Include="NameCard.c" />
-    <ClCompile Include="Point.c" />
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="DLinkedListMain.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayList.h" />
-    <ClInclude Include="NameCard.h" />
-    <ClInclude Include="Point.h" />
+    <ClInclude Include="DLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

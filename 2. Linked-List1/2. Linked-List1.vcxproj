@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayList.c" />
+    <ClCompile Include="ListMain.c" />
+    <ClCompile Include="NameCard.c" />
+    <ClCompile Include="Point.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="NameCard.h" />
+    <ClInclude Include="Point.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{57DDB2CA-303D-40E8-92CE-23CE18F43519}</ProjectGuid>
@@ -137,17 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Linked-List1\ArrayList.h" />
-    <ClInclude Include="..\Linked-List1\NameCard.h" />
-    <ClInclude Include="..\Linked-List1\Point.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\Linked-List1\ArrayList.c" />
-    <ClCompile Include="..\Linked-List1\ListMain.c" />
-    <ClCompile Include="..\Linked-List1\NameCard.c" />
-    <ClCompile Include="..\Linked-List1\Point.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
