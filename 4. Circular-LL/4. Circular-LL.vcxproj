@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0730C72D-D49D-43C6-A6D1-5B11811B4410}</ProjectGuid>
-    <RootNamespace>My3LinkedList2</RootNamespace>
+    <ProjectGuid>{B2F011D7-D94A-4B76-A0A0-6C026F24C123}</ProjectGuid>
+    <RootNamespace>My4CircularLL</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,14 +138,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DLinkedList.c" />
-    <ClCompile Include="DLinkedListMain.c" />
-    <ClCompile Include="Point.c" />
-    <ClCompile Include="PointListMain.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DLinkedList.h" />
-    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
