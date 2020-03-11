@@ -57,7 +57,7 @@ int main(void)
 	nEmp = MakeEmployee("5145", "조병우");
 	LInsert(&list, nEmp);
 
-	SearchEmp("조신우", 7, &list);
+	SearchEmp("조병우", 7, &list);
 
 	return 0;
 }

@@ -15,7 +15,7 @@ void LInsertFront(List* plist, Data data)
 	Node* newNode = (Node*)malloc(sizeof(Node));
 	newNode->data = data;
 
-	if (plist->tail = NULL)
+	if (plist->tail == NULL)
 	{
 		plist->tail = newNode;
 		newNode->next = newNode;
