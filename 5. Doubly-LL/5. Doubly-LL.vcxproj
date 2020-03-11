@@ -138,6 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DBLinkedList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBLinkedList.c" />
+    <ClCompile Include="DBLinkedListMain.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
