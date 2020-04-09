@@ -2,17 +2,20 @@
 
 void Sort(int arr[], int n)
 {
-	for (int i = 0; i < n - 1; i++)
+	int i, j, insData;
+	for (i = 1; i < n; i++)
 	{
-		int min = i;
-		for (int j = i + 1; j < n; j++)
+		insData = arr[i];
+
+		for (j = i - 1; j >= 0; j--)
 		{
-			if (arr[min] > arr[j])
-				min = j;
+			if (arr[j] > insData)
+				arr[j + 1] = arr[j];
+			else
+				break;
 		}
-		int temp = arr[i];
-		arr[i] = arr[min];
-		arr[min] = temp;
+
+		arr[j + 1] = insData;
 	}
 }
 int main(void)
