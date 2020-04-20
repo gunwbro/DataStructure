@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BubbleSort.c">
+    <ClCompile Include="ListBaseQueue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="RadixSort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListBaseQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
