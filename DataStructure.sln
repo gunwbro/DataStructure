@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15. PriorityQueue", "15. Pr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16. Sort", "16. Sort\16. Sort.vcxproj", "{CCCE11B1-1EDA-4FBD-A935-8118D50F2F1A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17. BinarySearchTree", "17. BinarySearchTree\17. BinarySearchTree.vcxproj", "{BA2D459D-E205-4C46-BE08-ED213BB31C67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{CCCE11B1-1EDA-4FBD-A935-8118D50F2F1A}.Release|x64.Build.0 = Release|x64
 		{CCCE11B1-1EDA-4FBD-A935-8118D50F2F1A}.Release|x86.ActiveCfg = Release|Win32
 		{CCCE11B1-1EDA-4FBD-A935-8118D50F2F1A}.Release|x86.Build.0 = Release|Win32
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Debug|x64.ActiveCfg = Debug|x64
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Debug|x64.Build.0 = Debug|x64
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Debug|x86.Build.0 = Debug|Win32
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Release|x64.ActiveCfg = Release|x64
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Release|x64.Build.0 = Release|x64
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Release|x86.ActiveCfg = Release|Win32
+		{BA2D459D-E205-4C46-BE08-ED213BB31C67}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
