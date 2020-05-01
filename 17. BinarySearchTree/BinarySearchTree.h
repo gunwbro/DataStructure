@@ -17,4 +17,8 @@ void BSTInsert(BTreeNode** pRoot, BSTData data);
 // BST를 대상으로 데이터 탐색
 BTreeNode* BSTSearch(BTreeNode* bst, BSTData target);
 
+BTreeNode* BSTRemove(BTreeNode** pRoot, BSTData target);
+
+void BSTShowAll(BTreeNode* bst);
+
 #endif // !__BINARY_SEARCH_TREE_H__
