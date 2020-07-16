@@ -138,6 +138,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChainedTableMain.c" />
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="Person.c" />
+    <ClCompile Include="Table.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLinkedList.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="Table.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
