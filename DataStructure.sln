@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21. ALGraphDFS", "21. ALGra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22. ALGraphBFS", "22. ALGraphBFS\22. ALGraphBFS.vcxproj", "{E75DBCF7-0BB8-4DCD-90D0-42449179E018}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "23. ALGraphKruskal", "23. ALGraphKruskal\23. ALGraphKruskal.vcxproj", "{22B066B1-3198-4CE5-924D-DBB7D2E64A44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{E75DBCF7-0BB8-4DCD-90D0-42449179E018}.Release|x64.Build.0 = Release|x64
 		{E75DBCF7-0BB8-4DCD-90D0-42449179E018}.Release|x86.ActiveCfg = Release|Win32
 		{E75DBCF7-0BB8-4DCD-90D0-42449179E018}.Release|x86.Build.0 = Release|Win32
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Debug|x64.ActiveCfg = Debug|x64
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Debug|x64.Build.0 = Debug|x64
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Debug|x86.ActiveCfg = Debug|Win32
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Debug|x86.Build.0 = Debug|Win32
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Release|x64.ActiveCfg = Release|x64
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Release|x64.Build.0 = Release|x64
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Release|x86.ActiveCfg = Release|Win32
+		{22B066B1-3198-4CE5-924D-DBB7D2E64A44}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
